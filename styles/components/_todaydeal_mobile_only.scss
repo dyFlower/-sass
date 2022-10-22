@@ -1,0 +1,13 @@
+.mobile_screenout {
+  display: none;
+  @include responsive('T') {
+    display: flex;
+  }
+}
+
+.section_todaydeal {
+  overflow-x: scroll;
+  @include responsive('T') {
+    overflow-x: hidden;
+  }
+}
